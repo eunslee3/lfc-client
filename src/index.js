@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 // Page components
-import Homepage from './pages/Homepage';
+import Homepage from './pages/homepage/Homepage';
 
 const router = createBrowserRouter([
   {

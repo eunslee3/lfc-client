@@ -1,3 +1,29 @@
-.carousel-item img {
-  min-width: 100%;
+.hero-captions {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  margin: 2em;
+  width: 300px;
+  max-height: 390px;
+  background-color: white;
+  padding: 1em;
+}
+
+.program-card-img {
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.program-card-header {
+  font-size: 1.4em;
 }
